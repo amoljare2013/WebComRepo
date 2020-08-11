@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.amol.jare.webcomproject.ui.main.helper.ExoPlayerRecyclerView
+        android:id="@+id/exoPlayerRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dedede"
+        android:dividerHeight="8dp"
+        />
+</RelativeLayout>

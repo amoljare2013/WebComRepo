@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:letterSpacing="-0.02"
+        android:lineSpacingExtra="5sp"
+        android:textColor="@color/navy"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Was india better then south africa in current serise?" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:srcCompat="@drawable/ic_user" />
+
+    <TextView
+        android:id="@+id/tvUserHandle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:letterSpacing="-0.02"
+        android:textColor="@color/colorAccent"
+        android:textSize="15sp"
+        tools:text="by @morris12" />
+
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/tvUserHandle"
+        android:layout_gravity="end|bottom"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:animateLayoutChanges="true"
+        android:background="@color/softGray"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>
